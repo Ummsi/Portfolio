@@ -14,7 +14,7 @@ import docs  from "../../public/docs.png"
 import lettercount  from "../../public/LetterCount.png"
 import ochi  from "../../public/ochi.png"
 import youtube  from "../../public/youTube.png"
-import Food  from "../../public/Food Online.png"
+import Food  from "../../src/assets/food.PNG"
 
 import Footer from './Footer'
 const Portfolio = () => {
@@ -71,7 +71,7 @@ const Portfolio = () => {
         {
             id: 8,
             logo: Food,
-            name: "Food Online",
+            name: "Food",
             projectLink: "https://food-online-lime.vercel.app/",
             text: "Responsive food delivery website using HTML, CSS, JavaScript.an interactive experience"
         },
